@@ -4,7 +4,11 @@ h2 {
   text-align: center;
 }
 
+div {
+  width: 60vw;  
+  margin: auto;
+}
+
 #input {
   width: 60vw;
-  margin: auto;
 }
