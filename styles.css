@@ -11,4 +11,7 @@ div {
 
 #input {
   width: 60vw;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 7px;
 }
