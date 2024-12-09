@@ -3,3 +3,16 @@ h2 {
   font-family: Corbel;
   text-align: center;
 }
+
+div {
+  width: 60vw;  
+  margin: auto;
+}
+
+#input {
+  background: grey;
+  width: 60vw;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
