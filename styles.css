@@ -3,3 +3,7 @@ h2 {
   font-family: Corbel;
   text-align: center;
 }
+
+#input {
+  width: 60vw;
+}
