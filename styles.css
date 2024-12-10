@@ -29,6 +29,7 @@ input {
 
 .block {
   color: white;
+  border: 1px solid black;
 }
 
 /* colours */
