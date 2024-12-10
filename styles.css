@@ -17,19 +17,18 @@ div {
   border-radius: 7px;
 }
 
-button {
+input {
   padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 4px 2px;
+  text-align: center;
 }
 
 /* blocks */
 
 .block {
   color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  text-align: center;
 }
 
 /* colours */
