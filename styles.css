@@ -17,6 +17,17 @@ div {
   border-radius: 7px;
 }
 
-.name {
+button {
   padding: 10px 15px;
+}
+
+/* blocks */
+
+.block {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  text-align: center;
 }
