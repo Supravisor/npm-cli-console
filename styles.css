@@ -16,3 +16,28 @@ div {
   border: 2px solid black;
   border-radius: 7px;
 }
+
+input {
+  background: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 4px 2px;
+  text-align: center;
+}
+
+input:not(.block) {
+  border: 1px solid black;
+}
+
+/* blocks */
+
+.block {
+  color: white;
+}
+
+/* colours */
+
+.red {
+  background: red;
+}
