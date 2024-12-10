@@ -16,3 +16,7 @@ div {
   border: 2px solid black;
   border-radius: 7px;
 }
+
+.name {
+  padding: 10px 15px;
+}
