@@ -41,3 +41,7 @@ input:not(.block) {
 .red {
   background: red;
 }
+
+.green {
+  background: green;
+}
