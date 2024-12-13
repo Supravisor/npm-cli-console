@@ -17,7 +17,7 @@ div {
   border-radius: 7px;
 }
 
-input {
+input, option {
   background: white;
   padding: 10px 15px;
   cursor: pointer;
