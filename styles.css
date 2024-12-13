@@ -17,17 +17,32 @@ div {
   border-radius: 7px;
 }
 
-input {
+input, select {
   background: white;
-  padding: 10px 15px;
+  margin: 4px 2px;
   cursor: pointer;
   font-size: 15px;
-  margin: 4px 2px;
   text-align: center;
+}
+
+input {
+  padding: 10px 15px;
+}
+
+select {
+  padding: 8px 15px;
 }
 
 input:not(.block) {
   border: 1px solid black;
+}
+
+#dependencyPackage {
+  width: 100px;
+}
+
+#dependencyVersion {
+  width: 60px;
 }
 
 /* blocks */
