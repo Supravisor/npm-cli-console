@@ -29,16 +29,20 @@ input {
   padding: 10px 15px;
 }
 
+select {
+  padding: 8px 15px;
+}
+
 input:not(.block) {
   border: 1px solid black;
 }
 
 #dependencyPackage {
-  width: 60px;
+  width: 100px;
 }
 
 #dependencyVersion {
-  width: 20px;
+  width: 60px;
 }
 
 /* blocks */
