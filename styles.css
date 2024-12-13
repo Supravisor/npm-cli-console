@@ -33,6 +33,14 @@ input:not(.block) {
   border: 1px solid black;
 }
 
+#dependencyPackage {
+  width: 60px;
+}
+
+#dependencyVersion {
+  width: 20px;
+}
+
 /* blocks */
 
 .block {
