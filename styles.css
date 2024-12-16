@@ -5,16 +5,18 @@ h2 {
 }
 
 div {
-  width: 60vw;  
   margin: auto;
 }
 
 #input {
   background: grey;
-  width: 60vw;
   height: 100px;
   border: 2px solid black;
   border-radius: 7px;
+}
+
+div {
+  width: 70vw;  
 }
 
 input, select {
@@ -63,4 +65,5 @@ input:not(.block) {
 
 .springgreen {
   background: springgreen;
+  color: black;
 }
