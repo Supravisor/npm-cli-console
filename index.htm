@@ -48,6 +48,7 @@
 
           <br /><input class="name" type="button" value="Express app object">
           <input type="button" class="block green" value="get" onclick="document.console.textbox.value+=document.console.send.value === '' ? '\napp.get(' + '&#34;/' + document.console.methodPath.value + '&#34, function(req, res) {\n  res.send' + '(&#34;' + document.console.methodHandler.value + '&#34;);\n});\n' : '\napp.get(' + '&#34;/' + document.console.methodPath.value + '&#34, function(req, res) {\n  res.send' + document.console.send.value + '(absolutePath = __dirname + &#34;/' + document.console.methodRespond.value + '&#34;);\n});\n'">
+          <input type="text" name="expressApp" value="app">
 
       </div>
     </form>
