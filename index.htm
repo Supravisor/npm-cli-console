@@ -40,7 +40,9 @@
           </select>
           <input id="dependencyVersion" type="text" name="dependencyVersion" value="version">
           <input type="button" class="block green" value="@" onclick="document.console.textbox.value+='  &#34;' + document.console.dependencyPackage.value + '&#34;: &#34;' + document.console.latestVersion.value + document.console.dependencyVersion.value + '&#34;\n'">
-          <input type="button" class="block green" value="last" onclick="document.console.textbox.value+='  &#34;' + document.console.dependencyPackage.value + '&#34;: &#34;' + document.console.latestVersion.value + document.console.dependencyVersion.value + '&#34;\n}'">
+          <input type="button" class="block green" value="last" onclick="document.console.textbox.value+='  &#34;' + document.console.dependencyPackage.value + '&#34;: &#34;' + document.console.latestVersion.value + document.console.dependencyVersion.value + '&#34;\n}'"><br />
+
+          <input type="button" class="block green" value="body parser" onclick="document.console.textbox.value+='\nconst bodyParser = require(&#34;body-parser&#34;);'">
 
       </div>
     </form>
