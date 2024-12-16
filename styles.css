@@ -15,7 +15,7 @@ div {
   border-radius: 7px;
 }
 
-div {
+div, #input {
   width: 70vw;  
 }
 
