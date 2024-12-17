@@ -8,6 +8,13 @@ div {
   margin: auto;
 }
 
+.name {
+  background: LightGrey;
+  padding: 8px 15px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
 #input {
   background: grey;
   height: 100px;
