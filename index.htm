@@ -67,7 +67,7 @@
       </div>
 
       <div>
-        <input type="button" class="block green" value="post" onclick="document.editor.textbox.value+='\napp.post(' + '&#34;/' + document.console.methodPath.value + '&#34, function(req, res) {\n  res.json' + '( { ' + document.console.postObject.value + ' } );\n}\n'">
+        <input type="button" class="block green" value="post" onclick="document.console.textbox.value+='\napp.post(' + '&#34;/' + document.console.methodPath.value + '&#34, function(req, res) {\n  res.json' + '( { ' + document.console.postObject.value + ' } );\n}\n'">
         <input type="text" name="postObject" value="object">
       </div>
 
