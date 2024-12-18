@@ -72,7 +72,7 @@
       </div>
 
       <div>
-        <input type="button" class="block green" value="json" onclick="document.editor.console.value+='app.get(' + '&#34;/json&#34, function(req, res) {\n    res.json' + '({ &#34;' + document.console.jsonKey.value + '&#34;: &#34;' + document.console.jsonData.value + '&#34; });\n});\n'">
+        <input type="button" class="block green" value="json" onclick="document.console.textbox.value+='app.get(' + '&#34;/json&#34, function(req, res) {\n    res.json' + '({ &#34;' + document.console.jsonKey.value + '&#34;: &#34;' + document.console.jsonData.value + '&#34; });\n});\n'">
         <input type="text" name="jsonKey" value="key">
         <input type="text" name="jsonData" value="data">
       </div>
