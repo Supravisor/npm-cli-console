@@ -26,6 +26,12 @@ div, #input {
   width: 70vw;  
 }
 
+.name {
+  background: DarkGrey;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
 input, select {
   background: white;
   margin: 4px 2px;
