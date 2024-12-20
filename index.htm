@@ -77,6 +77,9 @@
         <input type="text" name="jsonData" value="data">
       </div>
 
+      <div>
+        <input type="button" class="block green" value="method use" onclick="document.editor.textbox.value+='app.use(&#34;/' + document.editor.methodPath.value + '&#34, ' + document.editor.middlewareFunction.value + '(__dirname + &#34;/' + document.editor.methodRespond.value + '&#34;));\n'">
+      </div>
     </form>
 
     <script src="./script.js"></script>
