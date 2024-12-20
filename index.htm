@@ -77,6 +77,15 @@
         <input type="text" name="jsonData" value="data">
       </div>
 
+      <div>
+        <input type="button" class="block green" value="method use" onclick="document.console.textbox.value+='app.use(&#34;/' + document.console.methodPath.value + '&#34, ' + document.console.middlewareFunction.value + '(__dirname + &#34;/' + document.console.methodRespond.value + '&#34;));\n'">
+        <select name="middlewareFunction">
+          <option value=""></option>
+          <option value="express.static">static</option>
+        </select>
+        <input type="text" name="methodRespond" value="views/index.html">
+      </div>
+
     </form>
 
     <script src="./script.js"></script>
