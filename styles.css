@@ -68,12 +68,16 @@ input:not(.block) {
 
 /* colours */
 
-.red {
-  background: red;
+.coral {
+  background: coral;
 }
 
 .green {
   background: green;
+}
+
+.red {
+  background: red;
 }
 
 .springgreen {
